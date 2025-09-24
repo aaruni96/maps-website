@@ -1,0 +1,5 @@
+// Put your custom SCSS code here
+
+h2 code{
+  @include font-size($h2-font-size);
+}

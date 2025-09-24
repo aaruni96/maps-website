@@ -1,0 +1,11 @@
+[linters.severity]
+# Configure rule severities: "error", "warning", or "off"
+line-length = "warning"
+heading-increment = "error"
+no-duplicate-heading = "warning"
+
+[linters.line-length]
+# MD013: Line length configuration
+limit = 120
+heading_limit = 120
+code_block_limit = 120
