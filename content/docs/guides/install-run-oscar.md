@@ -26,6 +26,11 @@ $ maps -r org.oscar_system.oscar/x86_64/latest
 This will launch a shell inside the OSCAR runtime, and automatically launch
 OSCAR from a pre built system image.
 
+MaPS can also automatically deploy and launch runtimes from a URL (which MaPS
+can be asked to export). For example, clicking on [this
+link](maps://runtime?remotename=Official&remoteurl=https://repo.oscar-system.org/&runtime=org.oscar_system.oscar/x86_64/latest)
+is equivalent to running the above two commands!
+
 <script
   src="https://asciinema.org/a/suT9EW2hFK5291IloVeBO42wH.js"
   id="asciicast-suT9EW2hFK5291IloVeBO42wH"
