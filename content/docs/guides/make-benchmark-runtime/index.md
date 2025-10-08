@@ -88,8 +88,10 @@ root@runtime:~# pip install scipy matplotlib jupyter --break-my-system
 ```
 
 -------------------
-> Please see the [fakeroot section](#test) of the documentation for discussion
-> of why we need the fakeroot workaround for some tasks
+> Please see the [fakeroot
+> section](../../reference/package-mode/#a-note-on-fakeroot) of the
+> documentation for discussion of why we need the fakeroot workaround for some
+> tasks
 -------------------
 > In newer versions of `pip`, the option `--break-my-system` is necessary
 > because `pip` tries to protect you from generating universal conflicts with

@@ -70,6 +70,27 @@ bash (and its dependencies) are expected to be found. This is a mutable sandbox,
 which will later be saved into a runtime. Use this interactive environment to
 handcraft your (to be) runtime.
 
+### A note on fakeroot
+
+You cannot execute `chown`, `chgrp`, `chmod` etc while inside the runtime. This
+is standard behaviour of Linux user namespaces. This is not a choice made by
+MaPS, but a limitation we must live with. This means some operations which in
+turn call the above routines, like installing packages, or expanding tarballs
+will fail.
+
+Fakeroot is a Linux program which intercepts calls to such operations, and when
+instructed, instead of actually performing these operations, does a noop and
+returns success to the calling code.
+
+As a workaround to the namespace limitation, one can use fakeroot with the env
+var FAKEROOTDONTTRYCHOWN set to '1', and successfully run otherwise troublesome
+operations.
+
+```bash
+export FAKEROOTDONTTRYCHOWN='1'
+fakeroot apt install openssh-client
+```
+
 ## `--commit`
 
 ```bash
