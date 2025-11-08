@@ -26,6 +26,8 @@ As of 2025-10-07, the list of runtimes available on the Official repository is:
 | 2023-11-03 | `org.dmgordo.signed-difference-sets/x86_64/0.1` | Database of signed difference sets |
 | 2023-08-25 | `org.juliamath.accuratearithmetic/x86_64/papercorrectnessv3` | Calculate with error-free, faithful, and compensated transforms and extended significands.  |
 | 2025-10-07 | `org.modelreduction.synthetic-parametric-model/x86_64/3984` | Synthetic parametric model - MOR Wiki|
+| 2025-11-08 | `org.multiprecision.cm/x86_64/0.4.3` | Implementation of the fastECPP algorithm for proving primality of integers |
+| 2025-11-08 | `org.oscar-system.oscar/x86_64/sage-serialization` | Serialization demo notebooks for interoperability between OSCAR and Sagemath |
 | 2024-03-06 | `org.oscar_system.oscar/x86_64/0.12.1` | OSCAR Computer Algebra System - v 0.12.1|
 | 2024-05-17 | `org.oscar_system.oscar/x86_64/1.0.0` | OSCAR Computer Algebra System - v 1.0.0|
 | 2024-05-17 | `org.oscar_system.oscar/x86_64/1.0.2` | OSCAR Computer Algebra System - v 1.0.2|
