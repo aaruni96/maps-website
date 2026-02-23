@@ -34,7 +34,10 @@ As of 2025-10-07, the list of runtimes available on the Official repository is:
 | 2025-04-28 | `org.oscar_system.oscar/x86_64/1.3.1` | OSCAR Computer Algebra System - v 1.3.1|
 | 2025-07-31 | `org.oscar_system.oscar/x86_64/1.4.1` | OSCAR Computer Algebra System - v 1.4.1|
 | 2025-09-17 | `org.oscar_system.oscar/x86_64/1.5.0` | OSCAR Computer Algebra System - v 1.5.0|
-| 2025-09-17 | `org.oscar_system.oscar/x86_64/latest` | Alias to `org.oscar_system.oscar/x86_64/1.5.0` |
+| 2026-02-19 | `org.oscar_system.oscar/x86_64/1.5.0` | OSCAR Computer Algebra System - v 1.5.1|
+| 2026-02-19 | `org.oscar_system.oscar/x86_64/1.5.0` | OSCAR Computer Algebra System - v 1.6.0|
+| 2026-02-19 | `org.oscar_system.oscar/x86_64/1.5.0` | OSCAR Computer Algebra System - v 1.7.0|
+| 2026-02-19 | `org.oscar_system.oscar/x86_64/latest` | Alias to `org.oscar_system.oscar/x86_64/1.7.0` |
 | 2024-07-04 | `org.oscar_system.oscar/x86_64/testing` | OSCAR Computer Algebra System - internal testing |
 | 2024-11-05 | `org.polymake.mptopcom/x86_64/1.4` | Software for computing triangulations of point configurations in parallel |
 | 2025-06-13 | `org.polymake.polymake/x86_64/4.10` | Open source software for research in polyhedral geometry -v 4.10 |
